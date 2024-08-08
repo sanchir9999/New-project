@@ -1,18 +1,17 @@
 "use client";
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollToTop({ top: 0, behavior: 'smooth' });
     };
 
     return (
         <nav className="fixed top-0 left-0 right-0 w-full p-4 sm:p-6 lg:p-8 flex items-center justify-between shadow-md z-50 ">
             <div className="flex items-center cursor-pointer" onClick={scrollToTop}>
-                <Image
+                <img
                     src="/images/2-removebg-preview.png"
                     alt="Scroll to Top"
                     width={100}
@@ -61,8 +60,6 @@ export default function Navbar() {
                     >
                         Захиалах
                     </Link>
-
-
                 </div>
             </ul>
         </nav>

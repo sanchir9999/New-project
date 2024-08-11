@@ -11,12 +11,12 @@ export default function Home() {
       <div className='w-full lg:w-[1400px] m-auto h-[2000px] flex flex-col'>
         <Navbar />
         <div className='w-full lg:w-[1400px] m-auto flex-grow'>
-          <Image src="/images/466.JPG" alt="Image 466" width={1400} height={800} />
-          <Image src="/images/418.JPG" alt="Image 418" width={1400} height={800} />
-          <Image src="/images/IMG_0697.JPG" id="targetImage" alt="Image IMG_0697" width={1400} height={980} />
-          <Image src="/images/2299-59182.JPG" id="beleg" alt="Image 2299-59182" width={1400} height={800} />
-          <Image src="/images/Airpod.JPG" alt="Image Airpod" width={1400} height={800} />
-          <Image src="/images/s-l1200.jpg" alt="Image s-l1200" width={1400} height={800} />
+          <Image src="/images/466.JPG" alt="466" width={1400} height={800} />
+          <Image src="/images/418.JPG" alt="418" width={1400} height={800} />
+          <Image src="/images/IMG_0697.JPG" id="targetImage" alt="IMG_0697" width={1400} height={980} />
+          <Image src="/images/2299-59182.JPG" id="beleg" alt="2299-59182" width={1400} height={800} />
+          <Image src="/images/Airpod.JPG" alt="Airpod" width={1400} height={800} />
+          <Image src="/images/s-l1200.jpg" alt="s-l1200" width={1400} height={800} />
           <h1 className="text-4xl font-extrabold text-center text-gradient bg-clip-text" id="chanar">
             ЧАНАРЫН БАТАЛГАА
           </h1>

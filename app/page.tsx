@@ -11,7 +11,7 @@ export default function Home() {
       <div className='w-full lg:w-[1400px] m-auto h-[2000px] flex flex-col'>
         <Navbar />
         <div className='w-full lg:w-[1400px] m-auto flex-grow'>
-          <Image src="/images/466.jpg" alt="466" width={1400} height={800} />
+          <img src="/images/466.JPG" alt="466" width={1400} height={800} />
           <Image src="/images/418.jpg" alt="418" width={1400} height={800} />
           <Image src="/images/IMG_0697.jpg" id="targetImage" alt="IMG_0697" width={1400} height={980} />
           <Image src="/images/2299-59182.jpg" id="beleg" alt="2299-59182" width={1400} height={800} />
